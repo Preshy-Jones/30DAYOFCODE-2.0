@@ -1,4 +1,8 @@
 function divisors(integer) {
+
+    if (Number.isInteger(integer) == false) {
+        return "not an integer"
+    }
     //creating empty array
     db = []
     //looping from 1 to less than the input integer
